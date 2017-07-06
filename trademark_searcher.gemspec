@@ -7,11 +7,10 @@ Gem::Specification.new do |spec|
   spec.name          = "trademark_searcher"
   spec.version       = TrademarkSearcher::VERSION
   spec.authors       = ["luckypool"]
-  spec.email         = ["yuta.yoshiike@mixi.co.jp"]
+  spec.email         = ["luckypool314@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = 'TrademarkSearcher is J-PlatPat scraper.'
+  spec.homepage      = "https://github.com/luckypool/trademark_searcher"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
