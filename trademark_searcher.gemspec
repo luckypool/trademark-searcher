@@ -5,7 +5,7 @@ require 'trademark_searcher/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "trademark_searcher"
-  spec.version       = TrademarkSearcher::VERSION
+  spec.version       = TrademarkSearcher::Version::VERSION
   spec.authors       = ["luckypool"]
   spec.email         = ["luckypool314@gmail.com"]
 
@@ -28,5 +28,8 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.12"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "pry-byebug", "~> 3.4"
   spec.add_development_dependency "minitest", "~> 5.0"
+
+  spec.add_runtime_dependency "mechanize", "~> 2.7.5"
 end
